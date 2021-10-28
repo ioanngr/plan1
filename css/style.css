@@ -1,0 +1,91 @@
+/* Обнуляющий стиль */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+ol li,
+ul li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+	font-family: Poppins;
+	font-size: 16px;
+	line-height: 24px;
+	color: #5A5A5A;
+;
+}
+/* -------------- */
+.wrapper {
+		overflow: hidden;
+}
+
+.imagebig {
+	width: 1440px;
+}
+
+.text1 {
+	width: 824px;
+	margin: 0px 450px 0px 166px;
+}
+
+.imagenormal {
+	width: 824px;
+	margin: 26px 0px 32px 166px
+}
+.title1 {
+font-family: Poppins;
+font-size: 22px;
+font-weight: 600;
+line-height: 33px;
+width: 416px;
+margin: 66px 0px 26px 166px;
+}
+
+.text2 {
+	width: 824px;
+	margin: 0px 0px 0px 166px;
+}
+
+.title2 {
+margin: 24px 450px 6px 166px;
+font-weight: 600;
+width: 280px;
+}
+.item {
+	margin: 0px 0px 20px 166px;
+	padding-left: 30px;
+line-height: 30px;
+}
+
+.comment {
+font-size: 20px;
+font-weight: 500;
+line-height: 30px;
+margin: 0px 0px 0px 166px;
+padding-left: 20px;
+}
